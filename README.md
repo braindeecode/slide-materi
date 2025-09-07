@@ -1,63 +1,62 @@
-# 📚 Repository Materi Brain Dee Code
+# 🚀 Modul 01: NestJS Dasar
 
-Selamat datang di repositori **slide materi video pembelajaran** di channel YouTube Brain Dee Code! 🎬
+Selamat datang di modul pertama dari seri pembelajaran NestJS!
 
-Repositori ini adalah pusat untuk semua slide presentasi yang digunakan dalam setiap video. Tujuannya adalah untuk membantu kamu belajar lebih efektif dengan langsung mencoba kode dan me-review materi yang telah disampaikan.
-
----
-
-## 📖 Daftar Menu Materi
-
-Pilih topik yang ingin kamu pelajari untuk langsung menuju ke daftar materinya:
-
-- [Tutorial NestJS From Zero to Pro](#tutorial-nestjs-from-zero-to-pro)
+Di branch ini, kamu akan menemukan semua materi yang digunakan dalam playlist **Tutorial NestJS: NestJS Dasar** di channel **Brain Dee Code**. Modul ini adalah titik awal yang paling penting untuk memahami "cara berpikir" NestJS sebelum melangkah ke implementasi fitur yang lebih kompleks.
 
 ---
 
-## 💡 Cara Menggunakan Repositori Ini
+## 📂 Isi Branch Ini
 
-Setiap modul pembelajaran disimpan dalam **branch**-nya masing-masing untuk menjaga agar setiap topik tetap terisolasi dan mudah diakses.
-
-Berikut adalah langkah-langkah untuk mengakses materi:
-
-1.  **Pilih Materi:** Lihat daftar materi di bawah pada section yang kamu minati.
-2.  **Ganti Branch:** Di pojok kiri atas halaman GitHub ini, kamu akan melihat tombol bertuliskan `main`. Klik tombol tersebut, lalu pilih branch sesuai dengan nama modul yang kamu inginkan (contoh: `nestjs/01-nestjs-dasar`).
-3.  **Akses Konten:** Setelah berada di branch yang benar, kamu akan menemukan:
-    - `slides.md`: Berisi slide presentasi dalam format Marp untuk membuat slides.
-    - `slides.pdf`: Merupakan slides yang digunakan untuk proses pembelajaran.
-
-> **Tips:** Jika kamu sudah men-clone repositori ini ke komputer lokal, kamu bisa berpindah branch menggunakan perintah Git:
-> `git checkout nestjs/01-nestjs-dasar`
+- `slides.md`: Berisi slide presentasi dalam format Marp untuk membuat slides.
+- `slides.pdf`: Merupakan slides yang digunakan untuk proses pembelajaran.
 
 ---
 
-## 📚 Daftar Topik
+## 📄 Source Code
 
-### Tutorial NestJS from Zero to Pro
-
-Seri ini membahas tuntas framework NestJS untuk membangun aplikasi backend yang terstruktur, efisien, dan skalabel.
-
-| No. | Modul Pembelajaran | Nama Branch                                                                                        | Topik Utama                                                            |
-| :-- | :----------------- | :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- |
-| 1   | NestJS Dasar       | [nestjs/01-nestjs-dasar](https://github.com/braindeecode/slide-materi/tree/nestjs/01-nestjs-dasar) | Membahas dasar-dasar NestJS dan fitur fundamental yang ada di dalamnya |
+Source code pembelajaran dari modul ini dapat di akses di repository `tutorial-nestjs-01-nestjs-dasar`.
+[Lihat repository](https://github.com/braindeecode/tutorial-nestjs-01-nestjs-dasar)
 
 ---
 
-## 🖥️ Cara Menjalankan Slide (Marp)
+## 📚 Topik yang Dibahas
 
-Jika kamu ingin menjalankan slide presentasi dengan format **Marp**, sebuah tool untuk membuat slide dari Markdown. Kamu perlu melihatnya dengan benar:
-
-1.  Buka repositori ini menggunakan **Visual Studio Code**.
-2.  Install ekstensi [**Marp for VS Code**](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) dari marketplace.
-3.  Buka file `slides.md` dari branch materi yang kamu inginkan.
-4.  Klik ikon Marp (biasanya di pojok kanan atas) untuk membuka _preview_ slide.
-
-> Sebagai alternatif, kamu bisa download file `.pdf` yang ada
+| No. | Judul Video Materi                         | Deskripsi Singkat                                                                                                                     | Link YouTube                                            |
+| :-- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------ |
+| 1   | Pendahuluan & Pengenalan NestJS            | Pengenalan seri, serta apa itu NestJS, mengapa dibuat, dan keunggulannya dibanding framework lain.                                    | [▶️ Tonton Video](https://youtu.be/y1j7cIKiwMA)         |
+| 2   | Proyek Pertama: Nest CLI & Struktur Folder | Menggunakan NestJS CLI untuk membuat proyek baru dan memahami struktur folder yang dihasilkan.                                        | [▶️ Tonton Video](https://youtu.be/2wL49I1qVUA)         |
+| 3   | Decorator: Konsep Kunci di NestJS          | Penjelasan singkat tentang apa itu Decorator (`@`) dan mengapa ini sangat fundamental di NestJS.                                      | [▶️ Tonton Video](https://youtu.be/_4D6eEm9yxI)         |
+| 4   | Modules: Mengorganisir Aplikasi            | Memahami `@Module` sebagai "wadah" untuk mengelompokkan _controllers_, _providers_, dan modul lainnya.                                | [▶️ Tonton Video](https://youtu.be/wPC8phVcWI4)         |
+| 5   | Controllers & Routing                      | Memahami `@Controller` dan decorator method (`@Get`, `@Post`, dll.) untuk menangani routing                                           | [▶️ Tonton Video](https://youtu.be/sG3z31QjdN8)         |
+| 6   | HTTP Request & Response                    | Memahami cara mengakses data request dan response objek dengan menggunakan decorator `@Req`, `@Res`, `@Param`, `@Query`, dan `@Body`. | [▶️ Tonton Video](https://youtu.be/kFQrv4WTn3Y)         |
+| 7   | Providers & Services                       | Memahami `@Injectable` dan pentingnya memisahkan logika bisnis dari _controller_ ke dalam _service_.                                  | [▶️ Tonton Video](https://youtu.be/CkE68AJ5sOA)         |
+| 8   | Dependency Injection (DI) Dijelaskan       | Penjelasan mendalam tentang bagaimana NestJS secara otomatis mengelola dan menyediakan _instance_ (misal: Service ke Controller).     | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 9   | DTO (Data Transfer Object) & Request Body  | Mengenal DTO sebagai cetak biru data, dan cara menangani data yang masuk melalui _request body_ (`@Body`).                            | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 10  | Mengelola Cookie & Response                | Cara membaca dan mengatur _cookie_ serta mengontrol _response_ HTTP secara manual jika diperlukan.                                    | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 11  | Asynchronous Programming                   | Praktik standar penggunaan `async/await` di dalam _controller_ dan _service_ untuk menangani operasi yang memakan waktu.              | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 12  | Request Lifecycle                          | Visualisasi diagram urutan proses request: `Middleware` -> `Guard` -> `Interceptor` -> `Pipe` -> `Controller`.                        | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 13  | Middleware                                 | Cara kerja Middleware untuk intervensi paling awal pada request, dengan contoh membuat logger sederhana.                              | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 14  | Guards                                     | Konsep `Guard` untuk mengizinkan atau menolak akses ke sebuah _route_, dengan contoh `ApiKeyGuard`.                                   | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 15  | Pipes: Transformasi & Validasi Data        | Konsep `Pipe` untuk mengubah atau memvalidasi data yang masuk sebelum sampai ke _controller_.                                         | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 16  | Exception Filters: Menangani Error         | Cara menangkap semua _error_ secara terpusat dan mengirimkan _response_ error yang konsisten.                                         | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 17  | Interceptors: AOP di NestJS                | Konsep _Aspect-Oriented Programming_ untuk memodifikasi _request/response_ atau menambahkan logika di sekeliling _handler_.           | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 18  | Custom Decorators                          | Cara membuat decorator Anda sendiri (misal: `@User()`) untuk menyederhanakan pengambilan data dari _request_.                         | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 19  | Reflector & Metadata                       | Cara menggunakan `Reflector` untuk membaca metadata kustom, berguna untuk membuat Guard atau Interceptor yang dinamis.                | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 20  | Manajemen Configurasi                      | Menggunakan modul `@nestjs/config` untuk mengelola variabel lingkungan agar tidak ada _hardcoding_.                                   | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 21  | Lifecycle Events                           | Menjalankan kode pada momen-momen spesifik seperti `OnModuleInit` atau `OnApplicationBootstrap`.                                      | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 22  | Global Modules & Providers                 | Memahami decorator `@Global` untuk membuat sebuah modul atau provider tersedia di seluruh aplikasi.                                   | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 23  | Dynamic Modules                            | Konsep `forRoot()` untuk membuat modul yang dapat dikonfigurasi, kunci untuk membuat _library_ yang _reusable_.                       | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 24  | Custom Providers (`useFactory`)            | Cara menyediakan _provider_ dengan logika yang lebih kompleks, misalnya yang memiliki dependensi lain.                                | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 25  | ModuleRef: Akses DI Container Lanjutan     | Fitur _advanced_ untuk mengakses _provider_ secara terprogram dari dalam _DI Container_.                                              | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
+| 26  | Penutup                                    | Rangkuman semua konsep fundamental yang telah dipelajari dan jembatan ke modul selanjutnya.                                           | [▶️ Tonton Video](https://youtube.com/link-placeholder) |
 
 ---
 
-## 🙌 Kontribusi & Masukan
+## 🧭 Navigasi
 
-Jika kamu menemukan kesalahan pada kode atau materi, jangan ragu untuk memberikan masukan melalui kolom komentar di video YouTube terkait atau dengan membuat _Issue_ di repositori ini.
+Gunakan link di bawah ini untuk berpindah antar modul.
 
-### Selamat Belajar dan Happy Coding! 💻
+| Sebelumnya                                                                                  | Berikutnya                                                                                                                         |
+| :------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------- |
+| [⬅️ Kembali ke Menu Utama (main)](https://github.com/braindeecode/materi-youtube/tree/main) | [Lanjut ke Modul 02: Studi Kasus Dasar ➡️](https://github.com/braindeecode/materi-youtube/tree/nestjs/02-studi-kasus-nestjs-dasar) |
