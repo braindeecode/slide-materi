@@ -1,4 +1,4 @@
-# 📚 Repository Materi BrainD Academy
+# 📚 Repository Materi Brain Dee Code
 
 Selamat datang di repositori **slide materi video pembelajaran** di channel YouTube Brain Dee Code! 🎬
 
