@@ -2467,7 +2467,7 @@ export class PostgresService extends DatabaseService {
 
 ## Praktik: Menggunakan `useFactory`
 
-- Lalu kita ubah implementasi di `AppModule`:
+- Lalu kita ubah implementasi di `DatabaseModule`:
   ```typescript
   @Module({
     providers: [
