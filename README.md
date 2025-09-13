@@ -2,7 +2,7 @@
 
 Selamat datang di modul pertama dari seri pembelajaran NestJS!
 
-Di branch ini, kamu akan menemukan semua materi yang digunakan dalam playlist **Tutorial NestJS: NestJS Dasar** di channel **Brain Dee Code**. Modul ini adalah titik awal yang paling penting untuk memahami "cara berpikir" NestJS sebelum melangkah ke implementasi fitur yang lebih kompleks.
+Di branch ini, kamu akan menemukan semua materi yang digunakan dalam playlist **Tutorial NestJS Dasar untuk Pemula** di channel **Brain Dee Code**. Modul ini adalah titik awal yang paling penting untuk memahami "cara berpikir" NestJS sebelum melangkah ke implementasi fitur yang lebih kompleks.
 
 ---
 
